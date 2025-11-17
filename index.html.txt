@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PT. NAUMI METAL TEKNIK (NMT) — Manufacturing & Engineering</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <img src="assets/logo.svg" alt="NMT Logo">
+                <span>NMT</span>
+            </div>
+
+            <nav>
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+                <a href="auth.html" class="btn-login">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>PT. NAUMI METAL TEKNIK</h1>
+            <h3>General Trading • Fabrication • Machining • Dies Maker</h3>
+
+            <p>
+                We are a trusted manufacturing company specializing in precision machining,
+                metal fabrication, industrial supplies, and dies maker solutions.
+            </p>
+
+            <a href="services.html" class="btn-primary">Our Services</a>
+        </div>
+    </section>
+
+    <!-- SERVICES PREVIEW -->
+    <section class="services-preview container">
+        <h2>Our Core Capabilities</h2>
+
+        <div class="grid-3">
+            <div class="card">
+                <h3>Fabrication</h3>
+                <p>Custom steel fabrication, welding, structural builds & industrial components.</p>
+            </div>
+
+            <div class="card">
+                <h3>Machining</h3>
+                <p>CNC machining, turning, milling with high precision & industrial accuracy.</p>
+            </div>
+
+            <div class="card">
+                <h3>Dies Maker</h3>
+                <p>Design and production of molds, dies, jigs, fixtures, and machine parts.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 PT. Naumi Metal Teknik — All Rights Reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

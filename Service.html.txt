@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services — PT. NAUMI METAL TEKNIK</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <img src="assets/logo.svg" alt="NMT Logo">
+                <span>NMT</span>
+            </div>
+
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html" class="active">Services</a>
+                <a href="contact.html">Contact</a>
+                <a href="auth.html" class="btn-login">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SERVICES SECTION -->
+    <section class="services-page container">
+
+        <h1>Our Services</h1>
+        <p>
+            PT. Naumi Metal Teknik provides comprehensive industrial and manufacturing services
+            covering fabrication, machining, dies making, and general trading.
+            Our engineering team ensures high precision, durability, and consistent quality.
+        </p>
+
+        <div class="grid-3">
+
+            <div class="card service-card">
+                <h3>Fabrication</h3>
+                <p>
+                    Steel structure fabrication, welding, frames, tanks, brackets,
+                    and industrial metal components.
+                </p>
+                <ul class="list">
+                    <li>MIG & TIG Welding</li>
+                    <li>Structural Fabrication</li>
+                    <li>Sheet Metal Fabrication</li>
+                    <li>Custom Industrial Components</li>
+                </ul>
+            </div>
+
+            <div class="card service-card">
+                <h3>Machining</h3>
+                <p>
+                    High precision CNC machining, turning, milling, and drilling for various industries.
+                </p>
+                <ul class="list">
+                    <li>CNC Milling</li>
+                    <li>CNC Turning</li>
+                    <li>Surface Grinding</li>
+                    <li>Custom Precision Components</li>
+                </ul>
+            </div>
+
+            <div class="card service-card">
+                <h3>Dies Maker</h3>
+                <p>
+                    Design and manufacturing of dies, molds, jigs, fixtures,
+                    and high-accuracy metal stamping tools.
+                </p>
+                <ul class="list">
+                    <li>Progressive Dies</li>
+                    <li>Mold Making</li>
+                    <li>Jigs & Fixtures</li>
+                    <li>Reverse Engineering</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <h2>General Trading</h2>
+        <p>
+            We supply industrial tools, machinery components, engineering materials,
+            and various equipment to support manufacturing operations.
+        </p>
+
+        <h2>Custom Project Requests</h2>
+        <p>
+            Need specific machining or fabrication work?
+            Get in touch with us and our engineering team will assist you.
+        </p>
+
+        <a href="contact.html" class="btn-primary">Contact Us</a>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 PT. Naumi Metal Teknik — All Rights Reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
